@@ -2,7 +2,7 @@
   "name": "react-routing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/reactRouting",
+  "homepage": "https://jagannath1234.github.io/reactRouting",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
